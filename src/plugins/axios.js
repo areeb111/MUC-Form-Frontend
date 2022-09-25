@@ -10,7 +10,9 @@ import axios from "axios";
 
 let config = {
   baseURL:
-    process.env.baseURL || process.env.apiUrl || "http://localhost:3099/",
+    process.env.baseURL ||
+    process.env.apiUrl ||
+    "https://api.application.duc.edu.iq/",
   // timeout: 60 * 1000, // Timeout
   // withCredentials: true, // Check cross-site Access-Control
 };
