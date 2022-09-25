@@ -12,9 +12,9 @@
         <v-icon size="30"></v-icon>
       </v-btn>
       <v-spacer></v-spacer>
-      <img src="@/assets/duc.logo.png" height="30px" />
+      <img src="@/assets/logo.jpeg" height="30px" />
       &nbsp; &nbsp;
-      <h3>كلية دجلة الجامعة</h3>
+      <h3>كلية المنصور</h3>
       <v-spacer></v-spacer>
     </v-system-bar>
 

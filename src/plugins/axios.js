@@ -9,10 +9,7 @@ import axios from "axios";
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 let config = {
-  baseURL:
-    process.env.baseURL ||
-    process.env.apiUrl ||
-    "https://api.application.duc.edu.iq/",
+  baseURL: process.env.baseURL || process.env.apiUrl || "BASE_URL_HERE",
   // timeout: 60 * 1000, // Timeout
   // withCredentials: true, // Check cross-site Access-Control
 };

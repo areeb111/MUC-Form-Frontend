@@ -16,7 +16,7 @@ html {
 
 .theme--dark.v-app-bar.v-toolbar.v-sheet,
 .v-system-bar {
-    background-color: #24462eb0 !important;
+    background-color: #463a24b0 !important;
     border-bottom: thin solid rgba(231, 227, 252, .14) !important;
     backdrop-filter: blur(10px) !important;
 }
