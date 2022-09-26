@@ -1,4 +1,4 @@
-# portalapp
+# MUC Form Frontend
 
 ## Project setup
 ```
