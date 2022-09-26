@@ -4,26 +4,26 @@
       <v-text-field
         v-model="form.name"
         outlined
-        @keyup="send()"
+
         label="الاسم الكامل"
       ></v-text-field>
       <v-text-field
         v-model="form.phone"
-        @keyup="send()"
+
         outlined
         label="رقم الهاتف"
       ></v-text-field>
       <v-text-field
         v-model="form.location"
         outlined
-        @keyup="send()"
+
         label="السكن"
       ></v-text-field>
       <v-text-field
         type="number"
         v-model="form.degree"
         outlined
-        @keyup="send()"
+
         prefix="المعدل بعد الاضافة"
       ></v-text-field>
       <v-autocomplete
@@ -31,7 +31,7 @@
         label="القسم"
         :items="sections"
         outlined
-        @change="send()"
+
       ></v-autocomplete>
       <v-btn @click="sendForm()" block color="primary" x-large>ارسال</v-btn>
       <br />
