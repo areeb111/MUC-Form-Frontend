@@ -1,5 +1,5 @@
 <template>
-  <v-app id="app" style="background-color: #c9c9c9">
+  <v-app id="app" class="mucstyle">
     <v-system-bar
       hide-on-scroll
       v-if="!isLoggedIn"
@@ -12,9 +12,15 @@
         <v-icon size="30"></v-icon>
       </v-btn>
       <v-spacer></v-spacer>
-      <img src="@/assets/logo.jpeg" height="30px" />
+      <div class="d-flex justify-center align-center align-content-center flex-row">
+        <div class="muc-logo">
+          <img src="@/assets/muclogo-01.svg" />
+
+        </div>
+        <div>كلية المنصور الجامعة</div>
+
+      </div>
       &nbsp; &nbsp;
-      <h3>كلية المنصور</h3>
       <v-spacer></v-spacer>
     </v-system-bar>
 

@@ -3,6 +3,28 @@
 :root {
     --baseBackground: #FFFFFF;
 }
+.mucstyle {
+
+}
+
+.muc-logo {
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    border:  2px solid #FFC510;
+}
+
+.muc-logo img {
+    width: 28px;
+    height: auto;
+}
 
 
 * {
@@ -16,9 +38,9 @@ html {
 
 .theme--dark.v-app-bar.v-toolbar.v-sheet,
 .v-system-bar {
-    background-color: #463a24b0 !important;
-    border-bottom: thin solid rgba(231, 227, 252, .14) !important;
     backdrop-filter: blur(10px) !important;
+    background-color: #00185b !important;
+    border-bottom: 8px solid #FFC510 !important;
 }
 
 .bg-gradient-primary , .super {
